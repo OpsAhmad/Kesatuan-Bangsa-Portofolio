@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./alex-knight-Ys-DBJeX0nE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+
+.konten{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 5px solid #19466b;
+    cursor: pointer;
+    filter: brightness(1);
+    transition: 0.2s;
+}
+
+.photo:hover{
+    filter: brightness(2);
+}
+
+.nama{
+    background: purple;
+    font-size: 40px;   
+    padding: 20px;
+    border: 5px solid #19466b;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 15px;
+    width: 100%;
+    max-width: 700px;
+    color: #fff;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tentang{
+    background: #fff;
+    font-size: 18px;   
+    padding: 20px;
+    border: 5px solid #19466b;
+    border-radius: 10px;
+    text-align: justify;
+    line-height: 20px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.follow-me{
+    background: #19466b;
+    font-size: 18px;   
+    padding: 20px;
+    border: 5px solid #19466b;
+    border-radius: 10px;
+    text-align: justify;
+    line-height: 20px;
+    width: 100%;
+    max-width: 700px;
+    color: #fff;
+    text-align: center;
+}
+
+.foto-sosial-media{
+    width: 80px;
+}
+
+.red{
+    color: #ff0000;
+}
+
+.green{
+    color: #009b08;
+}
+
+.blue{
+    color: #158beb;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.italic{
+    font-style: italic;
+}
